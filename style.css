@@ -1,0 +1,225 @@
+/* headings */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+/* content */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+
+body {
+    box-sizing: border-box;
+    margin: auto;
+    /* margin: 0 20px; */
+    max-width: 800px;
+}
+
+.section {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.main-heading {
+    font-family: Playfair Display;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    margin-bottom: 20px;
+}
+
+.section1 {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.section1 p {
+    margin-top: unset;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.main-image {
+    max-width: 100%;
+}
+
+span.material-symbols-rounded {
+    font-size: 20px;
+}
+
+.material-symbols-rounded {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 40
+}
+
+.recipe-stats {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.recipe-stats .col1 {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.recipe-stats .row1 .material-symbols-rounded,
+.recipe-stats .row1 .stats-desc {
+    color: orange;
+}
+
+.recipe-stats .card {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+}
+
+.stats-title {
+    font-family: Montserrat;
+    font-size: 8px;
+    font-weight: 700;
+    line-height: 10px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #BDBDBD;
+}
+
+.stats-desc {
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.recipe-stats .row2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section3 .title {
+    font-family: Playfair Display;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.section3 .card {
+    margin-top: 15px;
+}
+
+.section3 .card-title {
+    font-family: Playfair Display;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.section3 .line {
+    display: flex;
+    gap: 5px;
+    align-items: flex-start;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 7px;
+}
+
+.section4 .heading {
+    font-family: Playfair Display;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.section4 .card {
+    height: fit-content;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.section4 .number {
+    background: #F2994A;
+    width: 36px;
+    height: 36px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section4 .card p {
+    width: fit-content;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    margin: 0;
+    margin-top: 3px;
+}
+
+.section5 {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+footer {
+    color: gray;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 40px;
+}
+
+@media screen and (min-width:750px) {
+    .section1 {
+        max-width: 600px;
+    }
+
+    .combined-section{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .recipe-stats .card{
+        width: 100px;
+    }
+    .recipe-stats .row2{
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    
+}
